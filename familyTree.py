@@ -207,3 +207,109 @@ class Family(object):
                 #print 'second, parent b != c, != grandparents'
                 return (2, abs(depA-depB))           
 
+## The first test case should print out:
+
+                    # non cousin
+##t, r = f.cousin("q", "c")
+##print "'q' is a", words[t],"cousin", r, "removed from 'c'"
+##
+##t, r = f.cousin("h", "a") #non cousin 3 removed from 'a'
+##print "'h' is a", words[t], "cousin", r, "removed from 'a'"
+##
+##t, r = f.cousin("h", "h")
+##print "'h' is a", words[t], "cousin", r, "removed from 'h'"
+##
+##t, r = f.cousin("n", "g")
+##print "'n' is a", words[t], "cousin", r, "removed from 'g'"
+##                    
+##t, r = f.cousin("b", "e")
+##print "'b' is a", words[t], "cousin", r, "removed from 'e'"
+##
+##t, r = f.cousin("h", "b")
+##print "'h' is a", words[t], "cousin", r, "removed from 'b'"
+##
+##t, r = f.cousin("h", "d")
+##print "'h' is a", words[t], "cousin", r, "removed from 'd'"                          
+##                    
+##t, r = f.cousin("f", "c")
+##print "'f' is a", words[t], "cousin", r, "removed from 'c'"
+##
+##t, r = f.cousin("f", "l")
+##print "'f' is a", words[t], "cousin", r, "removed from 'l'"                    
+##                    
+##t, r = f.cousin("a", "c")
+##print "'a' is a", words[t], "cousin", r, "removed from 'c'"
+##
+##t, r = f.cousin("a", "k")
+##print "'a' is a", words[t], "cousin", r, "removed from 'k'"
+####
+
+                    # zeroth cousin
+##t,r = f.cousin("b", "c") #zeroth
+##print "'b' is a", words[t],"cousin", r, "removed from 'c'"
+##                    
+##t, r = f.cousin("f", "b") #zeroth
+##print "'f' is a", words[t], "cousin", r, "removed from 'b'"
+##                    
+##t,r = f.cousin("b", "o") #zeroth
+##print "'b' is a", words[t],"cousin", r, "removed from 'o'"
+##
+##t, r = f.cousin("b", "q") #zeroth
+##print "'b' is a", words[t], "cousin", r, "removed from 'q'"
+##
+##t, r = f.cousin("d", "j") #zeroth
+##print "'d' is a", words[t], "cousin", r, "removed from 'j'"
+##
+##t, r = f.cousin("h", "c") #zeroth
+##print "'h' is a", words[t], "cousin", r, "removed from 'c'"
+##t, r = f.cousin("q", "b")
+##print "'q' is a", words[t],"cousin", r, "removed from 'b'"
+##                    
+##t, r = f.cousin("l", "m") #zeroth
+##print "'l' is a", words[t], "cousin", r, "removed from 'm'"
+##t, r = f.cousin("j", "k") #zeroth
+##print "'j' is a", words[t], "cousin", r, "removed from 'k'"
+##t, r = f.cousin("h", "i") #zeroth
+##print "'h' is a", words[t], "cousin", r, "removed from 'i'"
+##t, r = f.cousin("n", "q") #zeroth
+##print "'n' is a", words[t], "cousin", r, "removed from 'q'"
+##t, r = f.cousin("n", "p")
+##print "'n' is a", words[t], "cousin", r, "removed from 'p'"
+##                    
+                    # 1rst cousin
+##t, r = f.cousin("m", "o") #1
+##print "'m' is a", words[t], "cousin", r, "removed from 'o'"
+##                    
+##t,r = f.cousin("m", "n") #1rst cousing
+##print "'m' is a", words[t],"cousin", r, "removed from 'n'"
+##
+##t, r = f.cousin("g", "k") #first
+##print "'g' is a", words[t], "cousin", r, "removed from 'k'"
+###                   
+##t, r = f.cousin("d", "f") #1rst cousin
+##print "'d' is a", words[t],"cousin", r, "removed from 'f'"
+##
+##t, r = f.cousin("q", "e") #first
+##print "'q' is a", words[t],"cousin", r, "removed from 'e'"
+##
+##t, r = f.cousin("j", "h") #first                    
+##print "'j' is a", words[t],"cousin", r, "removed from 'h'"
+##
+##t, r = f.cousin("k", "h") #first                   
+##print "'k' is a", words[t],"cousin", r, "removed from 'h'"                    
+##                    
+##t, r = f.cousin("l", "n") #first
+##print "'l' is a", words[t], "cousin", r, "removed from 'n'"
+
+                    # 2nd cousin
+##t,r = f.cousin("k", "l") #2nd
+##print "'k' is a", words[t],"cousin", r, "removed from 'l'"
+##
+##t, r = f.cousin("i", "n")
+##print "'i' is a", words[t],"cousin", r, "removed from 'n'"
+##
+##t, r = f.cousin("h", "m")
+##print "'h' is a", words[t],"cousin", r, "removed from 'm'"
+##
+##t, r = f.cousin("j", "q")
+##print "'j' is a", words[t],"cousin", r, "removed from 'q'"
